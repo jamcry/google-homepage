@@ -2,3 +2,26 @@
 	display: block;
 	margin: auto;
 }
+
+#search-div {
+	display: static;
+	margin: auto;
+	width: 50%;
+	border: 1px solid black;
+}
+#search-form {
+}
+
+#search-box {
+	display: block;
+	width: 400px;
+	height: 40px;
+	border: 0.5px solid #aaaaaa;
+	border-radius: 2px;
+}
+
+#search-button,
+#lucky-button {
+	font-family: Arial;
+	font-weight: bold;
+}
