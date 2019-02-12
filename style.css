@@ -1,27 +1,53 @@
+body {
+	font-family: Arial;
+}
+
+#nav {
+	position: relative;
+	width: 100%;
+	border: 1px solid gray;
+	top: 0;
+	margin: auto;
+	padding: 0;
+}
+
+#footer {
+
+}
 #google-logo {
+	position: static;
 	display: block;
 	margin: auto;
+	margin-top: 120px;
+	margin-bottom: 30px;
+
 }
 
 #search-div {
-	display: static;
-	margin: auto;
+	text-align: center;
 	width: 50%;
+	margin: auto;
 	border: 1px solid black;
 }
 #search-form {
 }
 
 #search-box {
-	display: block;
+	color: black;
+	font-size: 16px;
+	background-color: white;
 	width: 400px;
 	height: 40px;
-	border: 0.5px solid #aaaaaa;
+	border: 0.5px solid #cccccc;
 	border-radius: 2px;
 }
 
 #search-button,
 #lucky-button {
-	font-family: Arial;
-	font-weight: bold;
+	color: #807575;
+	background-color: #f3f3f3;
+	border-color: #f2f2f2;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 16px;
 }
