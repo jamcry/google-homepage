@@ -51,13 +51,12 @@ a:hover {
 	color: black;
 	font-size: 16px;
 	background-color: white;
-	width: 584px;
-	height: 44px;
+	width: 560px;
+	height: 39px;
 	border: 0.5px solid #cccccc;
 	border-radius: 2px;
-	/*the following two line is copied from zmiralles' answer*/
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-	transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
 .buttons {
@@ -66,7 +65,7 @@ a:hover {
 
 #search-button,
 #lucky-button {
-	color: #807575;
+	color: #757575;
 	background-color: #f3f3f3;
 	border-color: #f2f2f2;
 	border-radius: 2px;
@@ -74,6 +73,8 @@ a:hover {
 	display: inline-block;
 	font-weight: bold;
 	padding: 10px;
+	margin: 6px;
+	cursor: pointer;
 }
 
 #search-button:hover,
@@ -91,26 +92,36 @@ a:hover {
 	position: absolute;
 	margin: 0;
 	width: 100%;
-	height: 25px;
+	height: 35px;
 	left: 0;
 	bottom: 0;
 	right: 0;
 	background: #f2f2f2;
 	border-top: 0.5px solid #e4e4e4;
 	padding-top: 12px;
+	font-size: small !important;
 }
 
 .footer a {
 	color: #63676c;
+
 }
 
 .lefted {
-	margin-left: 12px;
+	margin-left: 27px;
 	float: left;
 }
 
 .righted {
 	margin-right: 12px;
 	float: right;
+}
+
+.lefted a {
+	margin-right: 10px;
+}
+.righted a ,
+.nav a{
+	margin-right: 10px;
 }
 
