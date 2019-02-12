@@ -1,18 +1,37 @@
 body {
+	min-width: 800px;
+	margin: 0;
 	font-family: Arial;
 }
 
-#nav {
+.nav {
 	position: relative;
-	width: 100%;
 	border: 1px solid gray;
 	top: 0;
 	margin: auto;
-	padding: 0;
+	padding: 12px;
+	text-align: end;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+.center-p {
+	font-size: 13px;
+	margin: auto;
+	text-align: center;
+}
 #footer {
 
+}
+
+.buttons {
+	margin: 20px auto;
 }
 #google-logo {
 	position: static;
@@ -21,6 +40,30 @@ body {
 	margin-top: 120px;
 	margin-bottom: 30px;
 
+}
+.footer {
+	position: absolute;
+	margin: 0;
+	width: 100%;
+	height: 25px;
+	left: 0;
+	bottom: 0;
+	background: #f2f2f2;
+	border: 0.5px solid #e4e4e4;
+	padding-top: 12px;
+	font-size: 14px;
+}
+.footer a {
+	color: #63676c;
+}
+.lefted {
+	margin-left: 12px;
+	float: left;
+}
+
+.righted {
+	margin-right: 12px;
+	float: right;
 }
 
 #search-div {
@@ -48,6 +91,14 @@ body {
 	background-color: #f3f3f3;
 	border-color: #f2f2f2;
 	border-radius: 2px;
+	border: 1px solid #f2f2f2;
 	display: inline-block;
-	font-size: 16px;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 10px;
+}
+
+#search-button:hover,
+#lucky-button:hover {
+	border-color: gray;
 }
